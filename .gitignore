@@ -1,3 +1,5 @@
+# MacOS
+.DS_Store
 
 # Playwright
 node_modules/
@@ -6,3 +8,6 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Environment
+.env
