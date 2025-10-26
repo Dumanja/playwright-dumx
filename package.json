@@ -1,0 +1,23 @@
+{
+  "name": "playwright-dumx",
+  "version": "1.0.0",
+  "description": "Playwright with Typescript project setup",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dumanja/playwright-dumx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dumanja/playwright-dumx/issues"
+  },
+  "homepage": "https://github.com/Dumanja/playwright-dumx#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1"
+  }
+}
