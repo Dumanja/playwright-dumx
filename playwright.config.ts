@@ -4,6 +4,7 @@ dotenv.config(); // Load variables from .env file
 
 export const USERNAME = process.env.USERNAME!;
 export const PASSWORD = process.env.PASSWORD!;
+export const APP_BASE = '/web/index.php';
 
 /**
  * Read environment variables from file.
@@ -30,7 +31,7 @@ export default defineConfig({
   reporter: 'html',
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
-    baseURL: 'https://www.polovniautomobili.com', // Base URL
+    baseURL: 'https://opensource-demo.orangehrmlive.com', // Base URL
     headless: false,
     viewport: { width: 1920, height: 1080 },
     ignoreHTTPSErrors: true,
