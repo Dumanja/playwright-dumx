@@ -7,6 +7,7 @@ export class LoginPage extends BasePage {
     readonly usernameInput: Locator;
     readonly passwordInput: Locator;
     readonly loginButton: Locator;
+    readonly headingTitle: Locator;
 
     constructor(page: Page) {
         super(page); // Call BasePage constructor
@@ -14,6 +15,7 @@ export class LoginPage extends BasePage {
         this.usernameInput = page.getByPlaceholder('Username');
         this.passwordInput = page.getByPlaceholder('Password');
         this.loginButton = page.getByRole('button', { name: 'Login' });
+        this.headingTitle = page.getByRole('heading', {level: 5, name: 'Login'});
     }
 
     async login(username: string, password: string): Promise<void> {
